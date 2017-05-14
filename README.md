@@ -1,6 +1,8 @@
 # webpackAppBoilerplate
 A boilerplate webpack app, bootstrap ready!
 
+[starbootstrap-new-age theme](https://blackrockdigital.github.io/startbootstrap-new-age/) is installed.
+
 Install:
 -----
 ```
