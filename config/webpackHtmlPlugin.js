@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = new HtmlWebpackPlugin({
-  title: 'Schutz Pro',
+  title: 'Hello webpack',
   minify: {
     collapseWhitespace: true
   },
