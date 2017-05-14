@@ -7,7 +7,6 @@ Install:
 -----
 ```
 $ npm install
-
 ```
 
 Run the app:
