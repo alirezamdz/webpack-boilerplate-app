@@ -6,5 +6,9 @@ module.exports = new HtmlWebpackPlugin({
     collapseWhitespace: true
   },
   hash: true,
-  template: './src/templates/index.ejs'
+  filename: 'index.html',
+  template: './src/templates/index.pug'
+
+  // switch to ejs template it you wish...
+  // template: './src/templates/index.ejs'
 });

@@ -1,6 +1,12 @@
 const extractStylus = require("./extractCss");
 
 module.exports = [
+  // remove pug loader and html loader in case of using ejs
+  {
+    test: /\.pug/,
+    use: ['html-loader', 'pug-html-loader']
+  },
+  
   {
     test: /\.css$/,
     use: extractStylus.css.prod
